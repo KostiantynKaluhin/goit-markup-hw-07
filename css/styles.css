@@ -779,6 +779,6 @@ body {
 .modal-form__link {
   color: var(--accent-color);
 }
-.button--center {
+.modal-form__button--center {
   align-self: center;
 }

@@ -1,0 +1,23 @@
+.page-foter {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: var(--background-black);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.social-foter {
+  margin-left: 70px;
+}
+.container-foter {
+  display: flex;
+  align-items: baseline;
+}
+.foter-text {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: var(--white-color);
+  font-weight: 700;
+}
