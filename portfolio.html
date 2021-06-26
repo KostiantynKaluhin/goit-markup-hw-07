@@ -21,7 +21,7 @@
     <header class="header">
       <div class="container nav-container">
         <a href="./index.html" class="logo"
-          ><span class="logo-accent">Web</span>Studio</a
+          ><span class="logo__lebel">Web</span>Studio</a
         >
         <nav>
           <ul class="site-nav list">
@@ -287,8 +287,8 @@
     <footer class="page-foter">
       <div class="container container-foter">
         <div class="foter-nav">
-          <a href="./index.html" class="logo logo--foter"
-            ><span class="logo-accent">Web</span>Studio</a
+          <a href="./index.html" class="logo logo__foter"
+            ><span class="logo__lebel">Web</span>Studio</a
           >
           <address class="address-section">
             <ul class="list">
@@ -351,15 +351,19 @@
         </div>
         <div class="subscribe">
           <p class="foter-text">Подпишитесь на рассылку</p>
-          <form class="subscribe__form">
+          <form class="subscribe-form">
             <input
               type="email"
               name="user_email"
               placeholder="E-mail"
-              class="subscribe__input"
+              class="subscribe-form__input"
             />
-            <button type="submit" class="button subscribe__button">
-              Подписаться<svg width="24" height="24" class="subscribe__icon">
+            <button type="submit" class="button subscribe-form__button">
+              Подписаться<svg
+                width="24"
+                height="24"
+                class="subscribe-form__icon"
+              >
                 <use href="./images/symbol-defs.svg#subscribe"></use>
               </svg>
             </button>

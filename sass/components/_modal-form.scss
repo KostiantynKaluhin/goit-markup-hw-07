@@ -1,14 +1,11 @@
 .modal-form {
-  display: flex;
+  @include centerFlex;
   flex-direction: column;
   text-align: left;
-  justify-content: center;
-
   padding: 40px;
 }
 .modal-form__title {
-  display: flex;
-  justify-content: center;
+  @include centerFlex;
   font-size: 20px;
   line-height: 1.15;
   font-weight: 700;
@@ -19,6 +16,7 @@
 }
 .modal-form__name {
   margin: 0;
+  display: block;
   &:nth-child(1) {
     margin-bottom: 4px;
   }
@@ -104,8 +102,7 @@
   }
 }
 .checkbox {
-  display: flex;
-  justify-content: center;
+  @include centerFlex;
   align-items: center;
   font-size: 14px;
   line-height: 1.71;

@@ -54,13 +54,13 @@ body {
   text-decoration: none;
 }
 
-.logo--foter {
+.logo__foter {
   display: inline-block;
   color: var(--white-color);
   margin-bottom: 20px;
 }
 
-.logo-accent {
+.logo__lebel {
   color: var(--accent-color);
 }
 
@@ -279,19 +279,15 @@ body {
 }
 
 .features {
-  padding-bottom: 0;
-}
-
-.section-features__list {
   display: flex;
   justify-content: space-between;
 }
 
-.section-features__item {
+.features__item {
   width: 270px;
 }
 
-.section-features__name {
+.features__name {
   margin-bottom: 10px;
   margin-top: 0;
   color: var(--title-text-color);
@@ -301,19 +297,19 @@ body {
   text-transform: uppercase;
 }
 
-.section-features__text {
+.features__text {
   margin-bottom: 0;
   margin-top: 0;
   font-size: 14px;
   line-height: 1.7;
 }
 
-.section-features__icon {
+.features__icon {
   width: 70px;
   height: 70px;
 }
 
-.section-features__box {
+.features__box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -324,12 +320,12 @@ body {
   background-color: var(--background-section);
 }
 
-.section-work__list {
+.work {
   display: flex;
   justify-content: space-between;
 }
 
-.section-work__title {
+.section__title {
   margin-top: 0;
   margin-bottom: 50px;
   color: var(--title-text-color);
@@ -339,15 +335,15 @@ body {
   text-align: center;
 }
 
-.section-work__position {
+.work__position {
   position: relative;
 }
 
-.section-work__image {
+.work__image {
   display: block;
 }
 
-.section-work__text {
+.work__text {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -364,17 +360,17 @@ body {
   margin: 0;
 }
 
-.section-team__list {
+.team {
   display: flex;
   justify-content: space-between;
 }
 
-.section-team__box {
+.team-card {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.section-team__item {
+.team__item {
   box-shadow: var(--box-shadow);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
@@ -385,11 +381,11 @@ body {
   background-color: var(--background-section);
 }
 
-.section-team__image {
+.team__image {
   display: block;
 }
 
-.section-team__name {
+.team-card__name {
   margin-top: 0;
   margin-bottom: 10px;
   color: var(--title-text-color);
@@ -408,7 +404,7 @@ body {
   text-align: center;
 }
 
-.section-team__text {
+.team-card__text {
   margin-bottom: 16px;
   margin-top: 0;
   font-size: 16px;
@@ -425,45 +421,45 @@ body {
   text-align: center;
 }
 
-.section-client__list {
+.client {
   display: flex;
 }
 
-.section-client__item {
+.client__item {
   display: flex;
   text-align: center;
 }
 
-.section-client__item:not(:last-child) {
+.client__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.section-client__link {
+.client__link {
   display: flex;
-  width: 170px;
-  height: 92px;
   justify-content: center;
   align-items: center;
+  width: 170px;
+  height: 92px;
   fill: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-client__link:hover {
+.client__link:hover {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
 
-.section-client__link:focus {
+.client__link:focus {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
 
 .button-gallery {
   display: flex;
-  padding-bottom: 34px;
   justify-content: center;
+  padding-bottom: 34px;
 }
 
 .button-gallery__item:not(:last-child) {
@@ -649,22 +645,22 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.subscribe__form {
+.subscribe-form {
   display: flex;
 }
 
-.subscribe__form::placeholder {
+.subscribe-form::placeholder {
   color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
 }
 
-.subscribe__icon {
+.subscribe-form__icon {
   margin-left: 10px;
 }
 
-.subscribe__button {
+.subscribe-form__button {
   display: flex;
   align-items: center;
   padding: 10px 29px;
@@ -674,7 +670,7 @@ body {
   margin-left: 93px;
 }
 
-.subscribe__input {
+.subscribe-form__input {
   min-width: 358px;
   min-height: 50px;
   margin-right: 12px;
@@ -722,9 +718,9 @@ body {
 
 .modal-form {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   text-align: left;
-  justify-content: center;
   padding: 40px;
 }
 
@@ -742,6 +738,7 @@ body {
 
 .modal-form__name {
   margin: 0;
+  display: block;
 }
 
 .modal-form__name:nth-child(1) {

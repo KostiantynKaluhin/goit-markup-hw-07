@@ -1,7 +1,6 @@
 .button-gallery {
-  display: flex;
+  @include centerFlex;
   padding-bottom: 34px;
-  justify-content: center;
 }
 .button-gallery__item:not(:last-child) {
   margin-right: 8px;

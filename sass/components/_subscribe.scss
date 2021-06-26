@@ -1,4 +1,4 @@
-.subscribe__form {
+.subscribe-form {
   display: flex;
   &::placeholder {
     color: rgba(255, 255, 255, 0.6);
@@ -8,10 +8,10 @@
   }
 }
 
-.subscribe__icon {
+.subscribe-form__icon {
   margin-left: 10px;
 }
-.subscribe__button {
+.subscribe-form__button {
   display: flex;
   align-items: center;
   padding: 10px 29px;
@@ -20,7 +20,7 @@
   margin-left: 93px;
 }
 
-.subscribe__input {
+.subscribe-form__input {
   min-width: 358px;
   min-height: 50px;
   margin-right: 12px;

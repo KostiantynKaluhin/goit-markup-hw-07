@@ -1,6 +1,5 @@
 .social {
-  display: flex;
-  justify-content: center;
+  @include centerFlex;
 }
 .social__item {
   width: 44px;
