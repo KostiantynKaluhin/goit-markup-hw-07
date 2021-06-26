@@ -1,0 +1,20 @@
+.logo {
+  color: var(--main-foter-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo--foter {
+  display: inline-block;
+  color: var(--white-color);
+  margin-bottom: 20px;
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+.foter-logo {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: var(--white-color);
+}
